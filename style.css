@@ -383,6 +383,10 @@ nav ul li a {
 .payment-icons img{
     width: 170px;
 }
+.talent-page{
+    position: relative;
+    overflow-x: hidden;
+}
 .talent-btm{
     position: relative;
     margin-top: 7.5rem;
@@ -1065,6 +1069,10 @@ footer{
     .payment-icons img{
         width: 180px;
     }
+    .talent-page{
+        position: relative;
+        overflow-x: hidden;
+    }
     .talent-top-main-heading-container{
         font-size: 1.9rem;
     }
@@ -1103,6 +1111,8 @@ footer{
         display: none;
     }
     .project-management-page{
+        position: relative;
+        overflow-x: hidden;
         padding-top: 160px;
     }
     .project-management-page-headings{
@@ -1168,6 +1178,9 @@ footer{
         width: 80%;
         height: 70vh;
     }
+    .home-page::-webkit-scrollbar{
+        display: none;
+    }
     .home-top {
         padding-bottom: 30px;
     }
@@ -1200,6 +1213,7 @@ footer{
     }
     .talent-page{
         padding-top: 20px;
+        overflow-x: hidden;
     }
     .talent-top-main-heading-container{
         font-size: .7rem;
@@ -1315,6 +1329,7 @@ footer{
         margin-top: 50px;
     }
     .project-management-page{
+        position: relative;
         overflow-x: hidden;
         padding-top: 100px;
     }
